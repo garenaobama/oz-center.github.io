@@ -1,0 +1,53 @@
+.mainbut{
+padding 0;
+margin: 0;
+transform: scale(0.6); 
+opacity:0.8;
+}
+img.homebut {
+padding 0;
+margin: 0;
+  opacity: 0.8;
+border:0;
+}
+.slide-in{
+ border-radius: 8px;
+ display:none;
+animation-name: slide-in-effect;
+  animation-duration: 0.5s;
+box-shadow: 5px 5px 5px ;
+}
+@keyframes slide-in-effect {
+0%   {transform: scale(0.1); }
+100% {transform: scale(1); }
+}
+.mainbut:hover .slide-in {
+display:inline;
+}
+.mainbut:hover {
+padding 0;
+margin: 0;
+transform: scale(1); 
+opacity :1;
+}
+img.homebut:hover {
+  opacity: 1.0;
+}
+table, td, th {
+  border: 0;
+}
+
+table {
+  border: 0;
+  width: 100%;
+}
+td {
+text-align:center;
+}
+.text {
+	font-family :Arial;
+	color :grey ;
+}
+
+
+
